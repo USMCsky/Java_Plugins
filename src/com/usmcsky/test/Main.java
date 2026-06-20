@@ -2,7 +2,7 @@ package com.usmcsky.test;
 
 public class Main {
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
         String question = "What is your name?";
         String response = IO.readln(question);
         IO.println(response);
